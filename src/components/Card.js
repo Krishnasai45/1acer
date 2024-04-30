@@ -14,7 +14,6 @@ const Card = ({ card }) => {
     images.push(obj)
   });
 
-  console.log(images)
   let acres = card.total_land_size_in_acres?.acres != 0 ? `${card.total_land_size_in_acres.acres} Acres` : ''
   let guntas = card.total_land_size_in_acres?.guntas != 0 ? `${card.total_land_size_in_acres.guntas} Guntas` : ''
 

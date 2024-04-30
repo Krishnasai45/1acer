@@ -23,6 +23,7 @@
 .card-container{
   width: calc(33.33% - 10px);
   min-width: 300px;
+  max-width: 450px;
   /* border: solid 1px black; */
   border-radius: 8px;
   /* padding: 20px; */
